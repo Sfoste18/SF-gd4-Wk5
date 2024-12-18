@@ -4,6 +4,8 @@ public class RotateCamera : MonoBehaviour
 {
     public float mouseSensitivity;
 
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,5 +21,9 @@ public class RotateCamera : MonoBehaviour
         transform.Rotate(Vector3.up * mouseSensitivity * Time.deltaTime * mouseXInput);
 
     }
+   
+        
+    
 }
+
 
