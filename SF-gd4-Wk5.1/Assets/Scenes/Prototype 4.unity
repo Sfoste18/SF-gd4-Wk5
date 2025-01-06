@@ -916,8 +916,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658fbc5aeada2f54db9c692d2fd14270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PowerupReflectPrefab: {fileID: 0}
   enemyPrefab: {fileID: 585577880024374904, guid: 9df7552bc5df8694382bf18c8d538acd, type: 3}
   spawnRange: 9
+  waveNumber: 1
+  enemyCount: 0
 --- !u!1001 &1403545340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1050,8 +1053,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658fbc5aeada2f54db9c692d2fd14270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PowerupReflectPrefab: {fileID: 6129668316565316655, guid: 5e7724878765a1e48a2f9e5f767baac3, type: 3}
   enemyPrefab: {fileID: 585577880024374904, guid: 9df7552bc5df8694382bf18c8d538acd, type: 3}
   spawnRange: 9
+  waveNumber: 1
+  enemyCount: 0
 --- !u!4 &2014196935
 Transform:
   m_ObjectHideFlags: 0
